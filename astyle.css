@@ -1,0 +1,448 @@
+body {
+    margin: 0;
+    font-family: "Lato", sans-serif;
+    background-color: black;
+  }
+  
+  #lo{
+    width: 100px;
+    height:auto;
+  }  
+  .sidebar {
+    margin-top: 100px;
+    padding: 0;
+    width: 100px;
+    background-color: black;
+    position: fixed;
+    height: 100%;
+    overflow: auto;
+  }
+  
+  .sidebar a {
+    display: block;
+    color: white;
+    padding: 16px;
+    text-decoration: none;
+    text-align: center;
+  }
+   
+  .sidebar a:hover{
+    background-color:black;
+    color: goldenrod;
+  }
+  
+  .sidebar a:hover:not(.active) {
+    background-color: black;
+    color: ;
+  }
+  
+  div.content {
+    margin-left: 200px;
+    padding: 1px 16px;
+    height: 1000px;
+  }
+  
+  .foot{
+    margin-top:;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: #101010;
+    color: white;
+    text-align: center;
+    padding: 30px;
+  }
+
+  .foot a{
+      color: white;
+      padding-left: 50px;
+      font-size: 35px;
+  }
+
+  .foot .name{
+      font-size: 30px;
+      color: white;
+      text-transform: capitalize;
+      overflow: ;
+      font-weight: 600;
+      font-family: 'Knewave', cursive;
+  }
+
+  .name  strong{
+    color: #e2d562;
+}
+
+  .abo{
+      float: right;
+      margin-top: 10px;
+  }
+
+.abo-text{
+    margin-left: 100px;
+    color: white;
+}  
+ 
+.abo-text{
+    margin-left: 140px;
+    margin-top: 90px;
+    position: relative;
+    transform: translate();
+    font-family: "Lato", sans-serif;
+}
+
+.me{
+    font-size: 50px;
+    color: goldenrod;
+    text-transform: capitalize;
+    overflow: hidden ;
+    font-weight: 700;
+    font-family:'Permanent Marker', cursive;
+}
+
+.me :nth-child(1){
+    position: relative;
+    animation: animate 2s 1;
+    animation-fill-mode: backwards;
+}
+
+
+.me :nth-child(2){
+    position: relative;
+    animation: animate 2s 1;
+    animation-delay: .20s;
+    animation-fill-mode: backwards;
+}
+
+.me :nth-child(3){
+    position: relative;
+    animation: animate 2s 1;
+    animation-delay: .40s;
+    animation-fill-mode: backwards;
+}
+
+.me :nth-child(4){
+    position: relative;
+    animation: animate 2s 1;
+    animation-delay: .60s;
+    animation-fill-mode: backwards;
+}
+
+.me :nth-child(5){
+    position: relative;
+    animation: animate 2s 1;
+    animation-delay: .80s;
+    animation-fill-mode: backwards;
+}
+
+.me :nth-child(6){
+    position: relative;
+    animation: animate 2s 1;
+    animation-delay: 1.0s;
+    animation-fill-mode: backwards;
+}
+
+.me :nth-child(7){
+    position: relative;
+    animation: animate 2s 1;
+    animation-delay: 1.20s;
+    animation-fill-mode: backwards;
+}
+
+.me :nth-child(8){
+    position: relative;
+    animation: animate 2s 1;
+    animation-delay: 1.40s;
+    animation-fill-mode: backwards;
+}
+
+.pipe{
+    width: 700px;
+    height: 520px;
+    background-color;
+    margin-left: 110px;
+    border-radius: 30px;
+    border: 2px solid lavender;
+    color: ivory;
+    padding-left: 12px;
+    padding-top: 20px;
+    font-family: 'Shadows Into Light', cursive;
+    font-size: 20px;
+    transform: translate();
+    text-transform: none;
+    overflow: ;
+}
+ 
+.pipe strong{
+    color: #e2d562;
+}
+
+.pipe :nth-child(1){
+    position: relative;
+    animation: animate 2s 1;
+    animation-delay: 2.40s;
+    animation-fill-mode: backwards;
+
+}
+
+@keyframes animate{
+    0%{
+      bottom: -800px;
+    }
+    100%{
+      bottom: 0px;
+    }
+  }
+
+  @media screen and (max-width: 1000px){
+      .abo{
+          display: none;
+      }
+
+  }
+  
+  
+  @media screen and (max-width: 700px) {
+    .sidebar {
+      width: 100%;
+      height: auto;
+      position: relative;
+      margin-top: 0%;
+    }
+    .sidebar a {float: left;}
+    div.content {margin-left: 0;}
+      #lo{
+      display:inline block;
+      margin-left: auto;
+      margin-right: auto;
+      width: 100px;
+    }
+
+    .me{
+      font-size: 40px;
+      color: goldenrod;
+      text-transform: capitalize;
+      overflow: ;
+      font-weight: 200;
+      font-family:'Permanent Marker', cursive;
+    }
+
+    .abo-text{
+      margin-left: 10px;
+      margin-top: 40px;
+      position: relative;
+      transform: translate();
+      font-family: "Lato", sans-serif;
+    }
+
+    .pipe{
+    width: 300px;
+    height: 420px;
+    background-color;
+    margin-left: 10px;
+    border-radius: 30px;
+    border: 1px solid lavender;
+    color: ivory;
+    padding-left: 12px;
+    padding-top: 20px;
+    font-family: 'Shadows Into Light', cursive;
+    font-size: 10px;
+    transform: translate();
+    text-transform: none;
+    overflow: ;
+    }
+
+    .foot{
+      margin-top:;
+      position: fixed;
+      left: 0;
+      bottom: 0;
+      width: 100%;
+      background-color: #101010;
+      color: white;
+      text-align: center;
+      padding: 20px;
+    }
+
+    .foot a{
+      color: white;
+      padding-left: 20px;
+      font-size: 25px;
+      text-align: center;
+  }
+
+  .foot .name{
+    font-size: 25px;
+    color: white;
+    text-transform: capitalize;
+    overflow: ;
+    font-weight: 600;
+    font-family: 'Permanent Marker', cursive;
+}
+
+.name strong{
+    color:  #e2d562;
+}
+
+    
+  
+  }
+  
+  
+  @media screen and (max-width: 420px) {
+    .sidebar a {
+      text-align: center;
+      float: none;
+    }
+    .sm{
+      display: none;
+    }
+    #lo{
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+      width: 80px;
+    }
+
+    .me{
+      font-size: 20px;
+      color: goldenrod;
+      text-transform: capitalize;
+      overflow: ;
+      font-weight: 100;
+      font-family:'Permanent Marker', cursive;
+    }
+
+    .abo-text{
+      margin-left: 10px;
+      margin-top: 30px;
+      position: relative;
+      transform: translate();
+      font-family: "Lato", sans-serif;
+    }
+
+    .pipe{
+    text-align: center;  
+    width: 250px;
+    height: 350px;
+    background-color;
+    margin-left: 40px;
+    border-radius: 30px;
+    border: 1px solid lavender;
+    color: ivory;
+    padding-left: 12px;
+    padding-top: 20px;
+    font-family: 'Shadows Into Light', cursive;
+    font-size: 10px;
+    transform: translate();
+    text-transform: none;
+    overflow: ;
+    }
+
+    .foot{
+      margin-top:;
+      position: fixed;
+      left: 0;
+      bottom: 0;
+      width: 100%;
+      background-color: #101010;
+      color: white;
+      text-align: center;
+      padding: 20px;
+    }
+
+    .foot a{
+      color: white;
+      padding-left: 20px;
+      font-size: 25px;
+      text-align: center;
+  }
+
+  .foot .name{
+    font-size: 25px;
+    color: goldenrod;
+    text-transform: capitalize;
+    overflow: ;
+    font-weight: 600;
+    font-family: 'Permanent Marker', cursive;
+}
+  }
+
+@media screen and (max-width:350px){
+  .sidebar a {
+    text-align: center;
+    float: none;
+  }
+  .sm{
+    display: none;
+  }
+  #lo{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 70px;
+  }
+
+  .me{
+    font-size: 18px;
+    color: goldenrod;
+    text-transform: capitalize;
+    overflow: ;
+    font-weight: 80;
+    font-family:'Permanent Marker', cursive;
+  }
+
+  .abo-text{
+    margin-left: 10px;
+    margin-top: 30px;
+    position: relative;
+    transform: translate();
+    font-family: "Lato", sans-serif;
+  }
+
+  .pipe{
+  text-align: center;  
+  width: 250px;
+  height: 350px;
+  background-color;
+  margin-left: 05px;
+  border-radius: 30px;
+  border: 1px solid lavender;
+  color: ivory;
+  padding-left: 12px;
+  padding-top: 20px;
+  font-family: 'Shadows Into Light', cursive;
+  font-size: 10px;
+  transform: translate();
+  text-transform: none;
+  overflow: ;
+  }
+
+  .foot{
+    margin-top:;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: #101010;
+    color: white;
+    text-align: center;
+  }
+
+  .foot a{
+    color: white;
+    padding-left: 10px;
+    font-size: 20px;
+    text-align: center;
+}
+
+.foot .name{
+  font-size: 20px;
+  color: goldenrod;
+  text-transform: capitalize;
+  overflow: ;
+  font-weight: 400;
+  font-family: 'Permanent Marker', cursive;
+}
+}  
+  

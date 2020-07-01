@@ -1,0 +1,520 @@
+body {
+  margin: 0;
+  font-family: "Lato", sans-serif;
+  background-color: black;
+}
+
+#lo{
+  width: 100px;
+  height:auto;
+}  
+.sidebar {
+  margin: 0;
+  padding: 0;
+  width: 120px;
+  background-color: black;
+  position: fixed;
+  height: 100%;
+  overflow: auto;
+}
+
+.sidebar a {
+  display: block;
+  color: white;
+  padding: 16px;
+  text-decoration: none;
+  text-align: center;
+}
+ 
+.sidebar a:hover{
+  background-color:black;
+  color: goldenrod;
+}
+
+.sidebar a:hover:not(.active) {
+  background-color: black;
+  color: ;
+}
+
+div.content {
+  margin-left: 200px;
+  padding: 1px 16px;
+  height: 1000px;
+}
+
+.sm{
+  margin-top: 300px;
+}
+
+
+@media screen and (max-width: 700px) {
+  .sidebar {
+    width: 100%;
+    height: auto;
+    position: relative;
+  }
+  .sidebar a {float: left;}
+  div.content {margin-left: 0;}
+    #lo{
+    display:inline block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100px;
+  }
+  .foot{
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: red;
+    color: white;
+    text-align: center;
+  }
+  
+
+}
+
+
+@media screen and (max-width: 420px) {
+  .sidebar a {
+    text-align: center;
+    float: none;
+  }
+  .sm{
+    display: none;
+  }
+  #lo{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100px;
+  }
+}
+
+.intro{
+  margin-left: 140px;
+  margin-top: 100px;
+  position: relative;
+  transform: translate();
+  font-family: "Lato", sans-serif;
+}
+
+.greet{
+  font-size: 30px;
+  color: aliceblue;
+  font-weight: 300px;
+  text-transform: capitalize;
+  overflow: hidden;
+  font-family: 'Poller One', cursive;
+}
+
+.greet :nth-child(1){
+  position: relative;
+  animation: animate 2s;
+  animation-fill-mode: backwards;
+}
+
+.greet :nth-child(2){
+  position: relative;
+  animation: animate 2s;
+  animation-delay: 0.10s;
+  animation-fill-mode: backwards;
+}
+
+.greet :nth-child(3){
+  position: relative;
+  animation: animate 2s;
+  animation-delay: 0.20s;
+  animation-fill-mode: backwards;
+}
+
+
+.greet :nth-child(4){
+  position: relative;
+  animation: animate 2s;
+  animation-delay: 0.30s;
+  animation-fill-mode: backwards;
+}
+
+
+
+
+.name{
+  font-size: 60px;
+  color: goldenrod;
+  text-transform: capitalize;
+  overflow: hidden;
+  font-weight: 700;
+  font-family: 'Piedra', cursive;
+ 
+}
+
+
+.name :nth-child(1){
+  position: relative;
+  animation: animate 2s;
+  animation-delay: 1.0s;
+  animation-fill-mode: backwards;
+}
+
+.name :nth-child(2){
+  position: relative;
+  animation: animate 2s;
+  animation-delay: 1.10s;
+  animation-fill-mode: backwards;
+}
+
+.name :nth-child(3){
+  position: relative;
+  animation: animate 2s;
+  animation-delay: 1.20s;
+  animation-fill-mode: backwards;
+}
+
+.name :nth-child(4){
+  position: relative;
+  animation: animate 2s;
+  animation-delay: 1.30s;
+  animation-fill-mode: backwards;
+}
+
+.name :nth-child(5){
+  position: relative;
+  animation: animate 2s;
+  animation-delay: 1.40s;
+  animation-fill-mode: backwards;
+}
+
+
+.name :nth-child(6){
+  position: relative;
+  animation: animate 2s;
+  animation-delay: 1.50s;
+  animation-fill-mode: backwards;
+}
+
+.name :nth-child(7){
+  position: relative;
+  animation: animate 2s;
+  animation-delay: 1.60s;
+  animation-fill-mode: backwards;
+}
+
+.name :nth-child(8){
+  position: relative;
+  animation: animate 2s;
+  animation-delay: 1.70s;
+  animation-fill-mode: backwards;
+}
+
+.name :nth-child(9){
+  position: relative;
+  animation: animate 2s;
+  animation-delay: 1.80s;
+  animation-fill-mode: backwards;
+}
+
+.name :nth-child(10){
+  position: relative;
+  animation: animate 2s;
+  animation-delay: 1.90s;
+  animation-fill-mode: backwards;
+}
+
+.name :nth-child(11){
+  position: relative;
+  animation: animate 2s;
+  animation-delay: 2.0s;
+  animation-fill-mode: backwards;
+}
+
+
+.role{
+  font-size: 30px;
+  color: aliceblue;
+  font-weight: 300px;
+  text-transform: capitalize;
+  overflow: hidden;
+  font-family: 'Poller One', cursive;
+}
+
+.role :nth-child(1){
+  position: relative;
+  animation: animate 2s;
+  animation-delay: 2.10s;
+  animation-fill-mode: backwards;
+}
+ 
+.role :nth-child(2){
+  position: relative;
+  animation: animate 2s;
+  animation-delay: 2.30s;
+  animation-fill-mode: backwards;
+}
+
+.role :nth-child(3){
+  position: relative;
+  animation: animate 2s;
+  animation-delay: 2.40s;
+  animation-fill-mode: backwards;
+}
+
+.role :nth-child(4){
+  position: relative;
+  animation: animate 2s;
+  animation-delay: 2.50s;
+  animation-fill-mode: backwards;
+}
+
+.role :nth-child(5){
+  position: relative;
+  animation: animate 2s;
+  animation-delay: 2.60s;
+  animation-fill-mode: backwards;
+}
+
+.role :nth-child(6){
+  position: relative;
+  animation: animate 2s;
+  animation-delay: 2.70s;
+  animation-fill-mode: backwards;
+}
+
+.role :nth-child(7){
+  position: relative;
+  animation: animate 2s;
+  animation-delay: 2.80s;
+  animation-fill-mode: backwards;
+}
+
+.role :nth-child(8){
+  position: relative;
+  animation: animate 2s;
+  animation-delay: 2.90s;
+  animation-fill-mode: backwards;
+}
+
+.role :nth-child(9){
+  position: relative;
+  animation: animate 2s;
+  animation-delay: 3.0s;
+  animation-fill-mode: backwards;
+}
+
+.role :nth-child(10){
+  position: relative;
+  animation: animate 2s;
+  animation-delay: 3.10s;
+  animation-fill-mode: backwards;
+}
+
+.role :nth-child(11){
+  position: relative;
+  animation: animate 2s;
+  animation-delay: 3.20s;
+  animation-fill-mode: backwards;
+}
+
+.role :nth-child(12){
+  position: relative;
+  animation: animate 2s;
+  animation-delay: 3.30s;
+  animation-fill-mode: backwards;
+}
+
+.role :nth-child(13){
+  position: relative;
+  animation: animate 2s;
+  animation-delay: 3.40s;
+  animation-fill-mode: backwards;
+}
+
+.role :nth-child(14){
+  position: relative;
+  animation: animate 2s;
+  animation-delay: 3.50s;
+  animation-fill-mode: backwards;
+}
+
+.role :nth-child(15){
+  position: relative;
+  animation: animate 2s;
+  animation-delay: 3.60s;
+  animation-fill-mode: backwards;
+}
+
+.role :nth-child(16){
+  position: relative;
+  animation: animate 2s;
+  animation-delay: 3.70s;
+  animation-fill-mode: backwards;
+}
+
+
+.role :nth-child(17){
+  position: relative;
+  animation: animate 2s;
+  animation-delay: 3.80s;
+  animation-fill-mode: backwards;
+}
+
+.role :nth-child(18){
+  position: relative;
+  animation: animate 2s;
+  animation-delay: 3.90s;
+  animation-fill-mode: backwards;
+}
+
+.role :nth-child(19){
+  position: relative;
+  animation: animate 2s;
+  animation-delay: 4.0s;
+  animation-fill-mode: backwards;
+}
+
+.role :nth-child(20){
+  position: relative;
+  animation: animate 2s;
+  animation-delay: 4.10s;
+  animation-fill-mode: backwards;
+}
+
+.image{
+  float: right;
+  margin-top: -300px;
+}
+
+@keyframes animate{
+  0%{
+    bottom: -400px;
+  }
+  100%{
+    bottom: 0px;
+  }
+}
+
+@media screen and (max-width: 700px){
+  .intro{
+    margin-left: 10px;
+    margin-top: px;
+    position: relative;
+    transform: translate();
+    font-family: "Lato", sans-serif;
+  }
+  .greet{
+    font-size: 20px;
+    color: aliceblue;
+    font-weight: 100px;
+    text-transform: capitalize;
+    overflow: hidden;
+    font-family: 'Poller One', cursive;
+  }
+  .name{
+    font-size: 30px;
+    color: goldenrod;
+    text-transform: capitalize;
+    overflow: hidden;
+    font-weight: 400;
+    font-family: 'Piedra', cursive;
+   
+  }
+  .role{
+    font-size: 17px;
+    color:aliceblue;
+    font-weight: 100px;
+    text-transform: capitalize;
+    overflow: hidden;
+    font-family: 'Poller One', cursive;
+  }
+
+  .image{
+    display:none;
+  }
+} 
+
+@media screen and (max-width: 1000px){
+  .image{
+    display: none;
+  }
+}
+}
+
+@media screen and (max-width: 420px){
+  .intro{
+    margin-left:10px;
+    margin-top: px;
+    position: relative;
+    transform: translate();
+    font-family: "Lato", sans-serif;
+  }
+  .greet{
+    font-size: 10px;
+    color: aliceblue;
+    font-weight: 50px;
+    text-transform: capitalize;
+    overflow: hidden;
+    font-family: 'Poller One', cursive;
+  }
+  .name{
+    font-size: 20px;
+    color: goldenrod;
+    text-transform: capitalize;
+    overflow: hidden;
+    font-weight: 100;
+    font-family: 'Piedra', cursive;
+   
+  }
+  .role{
+    font-size: 10px;
+    color:aliceblue;
+    font-weight: 50px;
+    text-transform: capitalize;
+    overflow: hidden;
+    font-family: 'Poller One', cursive;
+  }
+
+  .image{
+    display: none;
+  }
+}
+
+@media screen and (max-width: 390px){
+  .intro{
+    margin-left:10px;
+    margin-top: px;
+    position: relative;
+    transform: translate();
+    font-family: "Lato", sans-serif;
+  }
+  .greet{
+    font-size: 12px;
+    color: aliceblue;
+    font-weight: 50px;
+    text-transform: capitalize;
+    overflow: hidden;
+    font-family: 'Poller One', cursive;
+  }
+  .name{
+    font-size: 20px;
+    color: goldenrod;
+    text-transform: capitalize;
+    overflow: hidden;
+    font-weight: 100;
+    font-family: 'Piedra', cursive;
+   
+  }
+  .role{
+    font-size: 11px;
+    color: aliceblue;
+    font-weight: 50px;
+    text-transform: capitalize;
+    overflow: hidden;
+    font-family: 'Poller One', cursive;
+  }
+
+  .image{
+    display: none;
+  }
+}
+
+

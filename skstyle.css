@@ -1,0 +1,532 @@
+body {
+  margin: 0;
+  font-family: "Lato", sans-serif;
+  background-color: black;
+}
+
+#lo{
+  width: 100px;
+  height:auto;
+}  
+.sidebar {
+  margin-top: 100px;
+  padding: 0;
+  width: 120px;
+  background-color: black;
+  position: fixed;
+  height: 100%;
+  overflow: auto;
+}
+
+.sidebar a {
+  display: block;
+  color: white;
+  padding: 16px;
+  text-decoration: none;
+  text-align: center;
+}
+ 
+.sidebar a:hover{
+  background-color:black;
+  color: goldenrod;
+}
+
+.sidebar a:hover:not(.active) {
+  background-color: black;
+  color: ;
+}
+
+div.content {
+  margin-left: 200px;
+  padding: 1px 16px;
+  height: 1000px;
+}
+
+.foot{
+  margin-top:;
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: #101010;
+  color: white;
+  text-align: center;
+}
+
+.foot a{
+    color: white;
+    padding-left: 50px;
+    font-size: 35px;
+}
+
+.foot .name{
+    font-size: 30px;
+    color: white;
+    text-transform: capitalize;
+    overflow: ;
+    font-weight: 600;
+    font-family: 'Knewave', cursive;
+}
+
+.name  strong{
+  color: #e2d562;
+}
+
+.abo{
+    float: right;
+    margin-top: 10px;
+}
+
+.abo-text{
+  margin-left: 100px;
+  color: white;
+}  
+
+.abo-text{
+  margin-left: 140px;
+  margin-top: 90px;
+  position: relative;
+  transform: translate();
+  font-family: "Lato", sans-serif;
+}
+
+.me{
+  font-size: 40px;
+  color: goldenrod;
+  text-transform: capitalize;
+  overflow: ;
+  font-weight: 700;
+  font-family:'Permanent Marker', cursive;
+}
+
+.me :nth-child(1){
+  position: relative;
+  animation: animate 1s 1;
+  animation-fill-mode: backwards;
+}
+
+
+.me :nth-child(2){
+  position: relative;
+  animation: animate 1s 1;
+  animation-delay: .10s;
+  animation-fill-mode: backwards;
+}
+
+.me :nth-child(3){
+  position: relative;
+  animation: animate 1s 1;
+  animation-delay: .20s;
+  animation-fill-mode: backwards;
+}
+
+.me :nth-child(4){
+  position: relative;
+  animation: animate 1s 1;
+  animation-delay: .30s;
+  animation-fill-mode: backwards;
+}
+
+.me :nth-child(5){
+  position: relative;
+  animation: animate 1s 1;
+  animation-delay: .40s;
+  animation-fill-mode: backwards;
+}
+
+.me :nth-child(6){
+  position: relative;
+  animation: animate 1s 1;
+  animation-delay: .50s;
+  animation-fill-mode: backwards;
+}
+
+.me :nth-child(7){
+  position: relative;
+  animation: animate 1s 1;
+  animation-delay: .60s;
+  animation-fill-mode: backwards;
+}
+
+
+.skill{
+  width: 500px;
+  margin-left: 90px;
+  margin-top: -100px;
+  padding: 20px;
+}
+
+.skill ul{
+  color: aliceblue;
+}
+
+.skill li{
+  position: relative;
+  list-style: none;
+  margin: 50px;
+  font-weight: 400;
+  text-transform: uppercase;
+}
+
+.wd{
+  font-size: 13px;
+  color: white;
+  font-weight: 0;
+  font-family: 'Knewave', cursive;
+}
+
+.wd li::before{
+  content: "";
+  position: absolute;
+  top: calc(100% + );
+  left: 100px;
+  width: 100%;
+  height: 15px;
+  background-color: black;
+  border-radius: 30px;
+  border: 1px solid white;
+}
+
+.wd li::after{
+  content:  " ";
+  position: absolute;
+  top: calc(100% +);
+  left: 100px;
+  width: 0%;
+  height: 15px;
+  background-color: goldenrod;
+  border-radius: 1000px;
+  animation-duration: 2s;
+  animation-delay: 0s;
+  animation-timing-function: ease;
+  animation-fill-mode: forwards;
+}
+
+
+li.html::after{
+  content: "100%";
+  text-align: center;
+  animation-name: html;
+}
+
+@keyframes html{
+  to {
+    width: 100%;
+  }
+}
+
+li.css::after{
+  content: "85%";
+  text-align: center;
+  animation-name: css;
+}
+
+@keyframes css{
+  to {
+    width: 85%;
+  }
+}
+
+li.js::after{
+  content: "70%";
+  text-align: center;
+  animation-name: js;
+}
+
+@keyframes js{
+  to {
+    width: 70%;
+  }
+}
+
+li.jq::after{
+  content: "65%";
+  text-align: center;
+  animation-name: jq;
+}
+
+@keyframes jq{
+  to {
+    width: 65%;
+  }
+}
+
+li .c::after{
+  content: "70%";
+  text-align: center;
+  animation-name: c;
+}
+@keyframes c{
+  to{
+    width: 70%;
+  }
+}
+
+li .cp::after{
+  content: "75%";
+  text-align: center;
+  animation-name: cp;
+}
+
+@keyframes cp{
+  to{
+    width: 75%;
+  }
+}
+
+li .ja::after{
+  content: "50%";
+  text-align: center;
+  animation-name: ja;
+}
+
+@keyframes ja{
+  to{
+    width: 50%;
+  }
+}
+
+li .pyt::after{
+  content: "60%";
+  text-align: center;
+  animation-name: pyt;
+}
+
+@keyframes pyt{
+  to{
+    width: 60%;
+  }
+}
+@keyframes animate{
+  0%{
+    bottom: -800px;
+  }
+  100%{
+    bottom: 0px;
+  }
+}
+
+@media screen and (max-width: 1300px){
+    .abo{
+        display: none;
+    }
+
+}
+
+
+@media screen and (max-width: 700px) {
+  .sidebar {
+    width: 100%;
+    height: auto;
+    position: relative;
+    margin-top: 0%;
+  }
+  .sidebar a {float: left;}
+  div.content {margin-left: 0;}
+    #lo{
+    display:inline block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100px;
+  }
+
+  .me{
+    font-size: 40px;
+    color: goldenrod;
+    text-transform: capitalize;
+    overflow: ;
+    font-weight: 200;
+    font-family:'Permanent Marker', cursive;
+  }
+
+  .abo-text{
+    margin-left: 10px;
+    margin-top: 40px;
+    position: relative;
+    transform: translate();
+    font-family: "Lato", sans-serif;
+  }
+
+
+  .foot{
+    margin-top:;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: #101010;
+    color: white;
+    text-align: center;
+    padding: 20px;
+  }
+
+  .foot a{
+    color: white;
+    padding-left: 20px;
+    font-size: 25px;
+    text-align: center;
+}
+
+.foot .name{
+  font-size: 25px;
+  color: white;
+  text-transform: capitalize;
+  overflow: hidden;
+  font-weight: 600;
+  font-family: 'Permanent Marker', cursive;
+}
+
+.name strong{
+  color:  #e2d562;
+}
+
+.skill{
+  margin-top: 05px;
+  margin-left: px;
+  width: 500px;
+}
+
+.wd ul li{
+  margin-left: 0px;
+}
+
+}
+
+
+@media screen and (max-width: 420px) {
+  .sidebar a {
+    text-align: center;
+    float: none;
+  }
+  .sm{
+    display: none;
+  }
+  #lo{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 80px;
+  }
+
+  .me{
+    font-size: 20px;
+    color: goldenrod;
+    text-transform: capitalize;
+    overflow: ;
+    font-weight: 100;
+    font-family:'Permanent Marker', cursive;
+  }
+
+  .abo-text{
+    margin-left: 10px;
+    margin-top: 30px;
+    position: relative;
+    transform: translate();
+    font-family: "Lato", sans-serif;
+  }
+
+
+  .foot{
+    margin-top:;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: #101010;
+    color: white;
+    text-align: center;
+    padding: 15px;
+  }
+
+  .foot a{
+    color: white;
+    padding-left: 20px;
+    font-size: 25px;
+    text-align: center;
+}
+
+.foot .name{
+  font-size: 10px;
+  color: goldenrod;
+  text-transform: capitalize;
+  overflow: hidden;
+  font-weight: 50;
+  font-family: 'Permanent Marker', cursive;
+}
+}
+
+@media screen and (max-width:350px){
+.sidebar a {
+  text-align: center;
+  float: none;
+}
+.sm{
+  display: none;
+}
+#lo{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 70px;
+}
+
+.me{
+  font-size: 18px;
+  color: goldenrod;
+  text-transform: capitalize;
+  overflow: ;
+  font-weight: 80;
+  font-family:'Permanent Marker', cursive;
+}
+
+.abo-text{
+  margin-left: 10px;
+  margin-top: 30px;
+  position: relative;
+  transform: translate();
+  font-family: "Lato", sans-serif;
+}
+
+
+
+.foot{
+  margin-top:;
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: #101010;
+  color: white;
+  text-align: center;
+  padding: 15px;
+}
+
+.foot a{
+  color: white;
+  padding-left: 00px;
+  font-size: 10px;
+  text-align: center;
+}
+
+.foot .name{
+font-size: 5px;
+color: white;
+text-transform: capitalize;
+overflow: hidden;
+font-weight: 10;
+font-family: 'Permanent Marker', cursive;
+}
+
+.name strong{
+  color: #e2d562;
+}
+
+.skill{
+  position: relative;
+  list-style: none;
+  margin-left: 0px;
+  margin-top: 10px;
+  font-weight: 50;
+  text-transform: uppercase;
+}
+}  
