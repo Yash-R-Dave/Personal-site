@@ -393,7 +393,7 @@ li .pyt::after{
 }
 
 
-@media screen and (max-width: 420px) {
+@media screen and (max-width: 430px) {
   .sidebar a {
     text-align: center;
     float: none;
@@ -513,7 +513,7 @@ font-size: 5px;
 color: white;
 text-transform: capitalize;
 overflow: hidden;
-font-weight: 10;
+font-weight: 12;
 font-family: 'Permanent Marker', cursive;
 }
 
@@ -526,7 +526,7 @@ font-family: 'Permanent Marker', cursive;
   list-style: none;
   margin-left: 0px;
   margin-top: 10px;
-  font-weight: 50;
+  font-weight: 60;
   text-transform: uppercase;
 }
 }  
